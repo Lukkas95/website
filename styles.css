@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100%;
+	color: #555;
+}
+
+form{
+	max-width: 400px;
+	margin: 50px auto;
+	border:  thin solid #e4e4e4;
+	padding: 20px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+form h2{
+	margin-bottom: 10px;
+}
+
+form .info{
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+
+form label{
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+
+form input, form textarea{
+	display: block;
+	width:  100%;
+	padding: 10px;	
+	margin-bottom: 10px;
+	font-size: 16px;
+	border:  thin solid #e4e4e4;
+	margin-bottom: 30px;
+}
+
+form select{
+	display: block;
+	width:  100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 16px;
+	border:  thin solid #e4e4e4;
+	background-color: white;
+	color: #555;
+}
+
+form input:focus
+{
+	outline: none;
+}
+
+form input::placeholder{
+	font-size: 16px;
+}
+
+form button{
+	background: #32749a;
+	color: white;
+	border: none;	
+	padding: 15px;
+	width:  100%;
+	font-size: 17px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+form button:hover{
+	filter: brightness(1.4);
+}
+
+form button:active{
+	background-color: green;
+}
+
+form .forgot-password, form .resend-code, form .have-account{
+	margin-top: 30px;
+}
+
+form a{
+	color: #1f7498;
+}
+
+form a:hover{
+	text-decoration: none;
+}
+
+form .create-account{
+	margin-top: 15px;
+}
+
+.error{
+	margin-top: 30px;
+	color: #af0c0c;
+}
+
+.success{
+	margin-top: 30px;
+	color: green;
+	line-height: 26px;
+}
+
+.page{
+	max-width: 900px;
+	margin: 30px auto 0 auto;
+	padding: 20px;
+}
+.top-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: thin solid #d4d4d4;
+	padding-bottom: 20px;
+}
+.top-bar a{
+	background: #32749a;
+	color: white;
+	text-decoration: none;
+	padding: 8px 35px;
+	font-size: 17px;
+}
+
+.top-bar a:hover{
+	filter: brightness(1.4);
+}
+
+.top-bar a:active{
+	background-color: green;
+}
+
+.content{
+	margin-top: 100px;
+}
+.content h3{
+	margin-bottom: 20px;
+}
+.content p{
+	line-height: 26px;	
+	margin-bottom: 50px;
+}
+
+.jobs-list {
+    margin-top: 20px; /* Adds space above the jobs list */
+}
+
+.jobs-list ul {
+    list-style: none; /* Removes bullet points from the list */
+    padding: 0; /* Removes default padding */
+}
+
+.jobs-list li {
+    padding-bottom: 10px; /* Adds space below each list item */
+}
+
+.jobs-list hr {
+    border: none; /* Removes default border */
+    height: 1px; /* Sets the height of the line */
+    background-color: #ccc; /* Sets the line color */
+    margin: 10px 0; /* Adds spacing around the line */
+}
+
+.job-card {
+    border: 1px solid #ddd; /* Border for the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
+}
+
+.job-card h5 {
+    color: #333; /* Dark text color for the title */
+    margin-bottom: 10px; /* Spacing below the title */
+}
+
+.job-card p {
+    color: #666; /* Lighter text color */
+    margin-bottom: 5px; /* Spacing between paragraphs */
+}
+
+.job-listings {
+    margin-top: 20px; /* Adjust this value as needed */
+}
+
